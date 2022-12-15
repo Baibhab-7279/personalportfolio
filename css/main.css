@@ -1,0 +1,303 @@
+#hi_hand {
+    animation: rotation 2s infinite;
+    max-width: 75px;
+    max-height: 75px;
+}
+
+@keyframes rotation {
+    50% {
+        transform: rotate(30deg);
+    }
+}
+
+#greeting_01 {
+    margin-top: auto;
+    margin-bottom: 0px;
+    margin-left: 20px;
+}
+
+#greeting_01p {
+    margin-top: auto;
+    margin-bottom: 0px;
+    font-size: 35px;
+    font-family: 'Monoton', cursive;
+}
+
+#introback01 {
+    height: 350px;
+    width: 350px;
+    position: absolute;
+    left: -45px;
+    top: -65px;
+    z-index: -1;
+    opacity: 0.3;
+}
+
+.mainpic {
+    width: 400px;
+}
+
+#mainbgbu01 {
+    position: absolute;
+    top: 450px;
+    border-radius: 0px 15px 15px 0px;
+    z-index: 1;
+    opacity: 0.5;
+}
+
+#greeting_02p {
+    font-family: 'Playball', cursive;
+    font-size: 18px;
+}
+
+.prog_menu_01 {
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    color: aliceblue;
+    padding: 10px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.prog_menu_02 {
+    display: flex;
+}
+
+.pmb_01:hover {
+    font-size: 30px;
+}
+
+.pm01 {
+    display: none;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p {
+    margin-bottom: 0px;
+}
+
+.pmb_01 {
+    background-color: rgb(30, 29, 29);
+    color: aliceblue;
+    border-width: 0px;
+}
+
+.pmi01 {
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    height: 150px;
+    width: 260px;
+    opacity: 0.75;
+}
+
+.pmi01:hover {
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    height: 170px;
+    width: 280px;
+    opacity: 1;
+}
+
+hr {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.pmi02 {
+    margin-top: auto;
+    height: 300px;
+    margin: 10px;
+    opacity: .5;
+    margin-left: 1px;
+    margin-right: 1px;
+}
+
+.pmi02:hover {
+    height: 330px;
+    margin: 2px;
+    opacity: 1;
+}
+
+#mc01 {
+    margin: auto;
+    min-height: 530px;
+    max-height: 600px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#mcs101 {
+    flex-direction: row;
+    margin: auto;
+    margin-left: auto;
+    margin-right: 10px;
+}
+
+#mcsi103 {
+    height: 400px;
+    width: 400px
+}
+
+#mcsi104 {
+    height: 400px;
+    width: 400px
+}
+
+#mcs102 {
+    align-self: center;
+    margin-left: 20px;
+    margin-right: auto;
+}
+
+.combinetag {
+    font-size: 30px;
+}
+
+img.arch1img {
+    height: 410px;
+    width: 600px;
+}
+
+.slidepic1 {
+    min-height: 430px;
+    width: 600px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+#about01 {
+    flex-direction: column;
+}
+
+#about02 {
+    flex-direction: row;
+    min-height: 500px;
+    margin: auto;
+    margin-top: 10px;
+    background-color: rgb(41, 41, 41);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#about03{
+    color: aliceblue; 
+    border: 2px solid; 
+    padding-top: 5px; 
+    padding-bottom: 5px; 
+    padding-left: 10px; 
+    padding-right: 10px; 
+    margin-left: 10px; 
+    border-radius: 0px 10px 10px 0px;
+}
+
+@media only screen and (max-width: 790px) {
+
+    #mc01 {
+        display: flex;
+        flex-direction: column-reverse;
+        margin: 0px;
+    }
+
+    #mcs101 {
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 15px;
+    }
+
+    #mcs102 {
+        margin: auto;
+    }
+
+    #mcsi103 {
+        height: 300px;
+        width: 300px
+    }
+
+    #mcsi104 {
+        height: 300px;
+        width: 300px
+    }
+
+    .mainpic {
+        width: 300px;
+    }
+
+    #mcs102 {
+        align-self: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #hi_hand {
+        max-width: 50px;
+        max-height: 50px;
+    }
+
+    .pm01 {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .pmi02 {
+        margin-top: 10px;
+        margin-left: 30px;
+        margin-right: auto;
+    }
+
+    .combinetag {
+        font-size: 20px;
+    }
+
+    img.arch1img {
+        height: 240px;
+        width: 340px;
+    }
+
+    .combinetag1 {
+        font-size: 12px;
+    }
+
+    .slidepic1 {
+        min-height: 240px;
+        width: 340px;
+        margin: auto;
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
+
+    #about01 {
+        flex-direction: row;
+    }
+
+    #about02 {
+        flex-direction: column;
+    }
+
+    #about03{
+        border-radius: 10px;
+        font-size: 12px;
+        margin-top: 10px;
+    }
+
+    #aboutprofileimage{
+        margin-left: 55px;
+    }
+
+    .pmi02:hover {
+        height: 330px;
+        margin: 2px;
+        opacity: 1;
+        margin-left: 20px;
+        margin-right: auto;
+    }
+
+}
